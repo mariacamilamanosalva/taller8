@@ -1,13 +1,1 @@
-def f3_a(x,a1,a2,a3,a4,a5,a6):
-  return (a1*x**5)+(a2*x**4)+(a3*x**3)+(a4*x**2)+(a5*x+a6)
-#x  igual a un arreglo de 100 números entre −10 a 10
-x=np.linspace(-10,10, 100)
-#los  6  coeficientes a usar serán los  6  últimos dígitos de su código de estudiante, 920999
-a1=9
-a2=2
-a3=0
-a4=9
-a5=9
-a6=9
-resultados= f3_a(x,a1,a2,a3,a4,a5,a6)+(10*np.random.randn(100))
-print(x, resultados)
+https://colab.research.google.com/drive/1owPYAh-gJ3pFinqf5mRCH47zOeEQyiZS#scrollTo=fz5PwoGl7xi5&line=1&uniqifier=1
